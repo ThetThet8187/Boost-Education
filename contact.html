@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/boost.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Contact Us - BOOST Education</title>
+    <style>
+        @media screen and (max-width: 820px){
+            .header{
+                height: 60vh;
+            }
+            .header h1{
+font-size: 3em;
+            }
+            .header img{
+                width: 62%;
+            }
+        }
+        @media screen and (max-width: 450px){
+            nav{
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" class="Boost">BOOST</a>
+            <ul>
+                <li><a href="./index.html" class="nav">Home</a></li>
+                <li><a href="./index.html#about" class="nav">About</a></li>
+                <li><a href="./index.html#services" class="nav">Services</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <div>
+           <h1>Apply Now!</h1>
+    <a href="" class="btn" style="margin-left: 20px;">Get a Scholarship!</a>
+    </div>
+    <img src="./images/educator.svg" alt="">
+    </div>
+        </header>
+        <section class="contact" data-aos="fade-right">
+            <div class="address" data-aos="fade-right">
+                <h2>Contact Us Now!</h2>
+            <p><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></p>
+            <p><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></p>
+            </div>
+            <form action="">
+                <table><tr>
+               <td> <label for="name">Name</label></td>
+                <td><input type="text" placeholder="Your Name" id="name"></td>
+            </tr><tr>
+                <td><label for="ph">Phone</label></td>
+                <td><input type="tel" placeholder="Your Phone Number" id="ph"></td>
+            </tr> <tr>
+                <td><label for="DOB">Birthday</label></td>
+                <td><input type="date" placeholder="Your Birthday" id="DOB"></td>
+            </tr><tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="email" placeholder="Your Email" id="Email"></td>
+            </tr><tr>
+                <td><label for="message">Your Comment</label></td>
+                <td><textarea placeholder="Your Comment" id="message"></textarea></td>
+                </tr>
+                <tr>
+                    <td><a href="" class="btn">Submit!</a></td>
+                </tr>
+                </table>
+                
+            </form>
+            
+           </section> 
+           <script>
+            AOS.init();
+          </script>
+</body>
+</html>
